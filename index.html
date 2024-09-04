@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Couply</title>
+</head>
+<body>
+  
+  <!-- Header contains navbar -->
+  <header>
+    <div class="wrapper navbar">
+      <a href="#" class="logo">
+        <img src="./assets/logo.svg" alt="">
+      </a>
+
+      <nav class="tab-desk-nav">
+        <ul>
+          <li><a href="#" class="home">Home</a></li>
+          <li><a href="#">Coupons</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" class="start-saving-btn">
+        <span>Start saving</span>
+        <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.46967 12.0303C5.76256 12.3232 6.23744 12.3232 6.53033 12.0303L11.3033 7.25736C11.5962 6.96447 11.5962 6.48959 11.3033 6.1967C11.0104 5.90381 10.5355 5.90381 10.2426 6.1967L6 10.4393L1.75736 6.1967C1.46447 5.90381 0.989592 5.90381 0.696699 6.1967C0.403806 6.48959 0.403806 6.96447 0.696699 7.25736L5.46967 12.0303ZM5.25 0.5L5.25 11.5L6.75 11.5L6.75 0.5L5.25 0.5Z" fill="black"/>
+          </svg>          
+      </a>
+
+      <img src="./assets/hamburger.svg" alt="" class="menu-open">
+
+      <nav class="mob-nav">
+        <a href="#" class="menu-close">X</a>        
+
+        <ul>
+          <li><a href="#" class="home-mob">Home</a></li>
+          <li><a href="#">Coupons</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero wrapper-hero">
+    <div class="left-col">
+      <div class="wrapper">
+          <div class="star-wrap">
+            <h1>
+              Shopping with coupons, applied automatically!
+            </h1>
+            <img src="./assets/star.svg" class="star-pattern" alt="">
+          </div>
+          <div class="users-info">
+            <div class="current-users">
+              <p>Used by over 500,000 peeps</p>
+              <img src="./assets/photoChunk.svg" alt="">
+            </div>
+            <div class="user-comment">
+              <img src="./assets/jandeyDoe.svg" alt="">
+              <div>
+                <p>Holy sh*t, I saved $500!</p>
+                <p class="user-name">- Janey Doe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="right-col">
+      <div class="wrapper">
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">
+              <span>1</span>
+            </div>
+            <div class="step-description">Download the Extension for Chrome or Firefox.</div>
+          </div>
+          <div class="step">
+            <div class="step-number">
+              <span>2</span>
+            </div>
+            <div class="step-description">Visit your favorite online retailers.</div>
+          </div>
+          <div class="step">
+            <div class="step-number">
+              <span>3</span>
+            </div>
+            <div class="step-description"><span>save!</span> Apply coupons from the toolbar.</div>
+          </div>
+        </div>
+        <a href="#" class="install-btn">
+          <span>Install Extension</span>
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.46967 12.0303C5.76256 12.3232 6.23744 12.3232 6.53033 12.0303L11.3033 7.25736C11.5962 6.96447 11.5962 6.48959 11.3033 6.1967C11.0104 5.90381 10.5355 5.90381 10.2426 6.1967L6 10.4393L1.75736 6.1967C1.46447 5.90381 0.989592 5.90381 0.696699 6.1967C0.403806 6.48959 0.403806 6.96447 0.696699 7.25736L5.46967 12.0303ZM5.25 0.5L5.25 11.5L6.75 11.5L6.75 0.5L5.25 0.5Z" fill="black"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section showing brands where coupons applied -->
+  <section class="brands">
+    <div class="wrapper">
+      <div class="brands-logos">
+        <img src="./assets/amazon.svg" alt="">
+        <img src="./assets/bestyBuy.svg" alt="">
+        <img src="./assets/shopify.svg" alt="">
+        <img src="./assets/walmart.svg" alt="">
+        <a href="#" class="view-all-brands">
+          <img src="./assets/eye.svg" alt="">
+          <span>View all brands</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- sectoin that contain some products with offers applied -->
+  <div class="wrapper">
+    <div class="products-container">
+      <div class="products">
+        <div class="product product1">
+          <img src="./assets/womens-nike-shoes.jpg" alt="womens nike womens-nike-shoes">
+          <p>Women’s Nike Shoes</p>
+        </div>
+        <div class="product product2">
+          <img src="./assets/arrwos.jpg" alt="Quick arrows image">
+          <p>Quick arrows</p>
+        </div>
+        <div class="product product3">
+          <img src="./assets/headphone.jpg" alt="headphone images">
+          <p>SkullCursher headphone</p>
+        </div>
+        <div class="product product4">
+          <img src="./assets/blue heels.jpg" alt="Bule heels image">
+          <p>Awesome! footwares</p>
+        </div>
+        <div class="product product5">
+          <img src="./assets/shades.jpg" alt="shades image">
+          <p>Cool shades</p>
+        </div>
+        <div class="product product6">
+          <img src="./assets/shampo.jpg" alt="shampoo image">
+          <p>Skincare Products</p>
+        </div>
+      </div>
+      <a href="#" class="view-all-offers">
+        <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M28.3427 15.116C28.9747 15.9426 28.9747 17.0586 28.3427 17.884C26.3521 20.4826 21.5761 25.8333 16.0001 25.8333C10.4241 25.8333 5.64806 20.4826 3.65739 17.884C3.3499 17.4881 3.18298 17.0012 3.18298 16.5C3.18298 15.9987 3.3499 15.5118 3.65739 15.116C5.64806 12.5173 10.4241 7.16663 16.0001 7.16663C21.5761 7.16663 26.3521 12.5173 28.3427 15.116V15.116Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 20.5C18.2091 20.5 20 18.7091 20 16.5C20 14.2909 18.2091 12.5 16 12.5C13.7909 12.5 12 14.2909 12 16.5C12 18.7091 13.7909 20.5 16 20.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>View all offers</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- footer section -->
+  <footer>
+    <div class="wrapper footer">
+      <div class="left-col-footer">
+        <a href="#" class="footer-logo">
+          <img src="./assets/logo.svg" alt="">
+        </a>
+        <div class="contact-links">
+          <div class="social-links">
+            <a href="#">
+              <img src="./assets/facebook.svg" alt="">
+            </a>
+            <a href="#">
+              <img src="./assets/spotify.svg" alt="  ">
+            </a>
+            <a href="#">
+              <img src="./assets/facebook.svg" alt="">
+            </a>
+          </div>
+          <a href="mailto:durgesh65178@gmail.com" class="email">contact@couply.com</a>
+        </div>
+      </div>
+      <div class="right-col-footer">
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <p>Copyright 2022-2023 @ Couply LLC</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- javscript page link -->
+   <script src="./js/script.js"></script>
+</body>
+</html>
